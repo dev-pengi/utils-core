@@ -17,7 +17,7 @@ The `circle()` function draws a circular clipping region on a canvas context.
 
 ### Return value
 
-- (`CanvasRenderingContext2D`): The canvas context with the new circular clipping region.
+- `CanvasRenderingContext2D`: The canvas context with the new circular clipping region.
 
 ### Throws
 
@@ -39,13 +39,13 @@ ctx.save();
 utils.canvas.circle(ctx, centerX - radius, centerY - radius, radius * 2, radius * 2);
 
 // Draw an image that is clipped to the circle region
-const image= await loadImage('myImage.png');
+const image = await loadImage('myImage.png');
 ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 ctx.restore();
 ```
 :::info
 
-this example uses await whice means the code has to be inside an async function .
+this example uses await to wait for the request which means the code has to be inside an async function.
 
 :::
 ### See also
