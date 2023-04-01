@@ -12,6 +12,15 @@ The `MsToString()` function converts a number of milliseconds to a human readabl
 - `milliseconds` (`Number`): The number of milliseconds to convert
 - `seperator` (`String`): Seperates between units. set to `' ,'` by default
 
+### Time units:
+- `s`: second
+- `m`: minute
+- `h`: hour
+- `d`: day
+- `w`: week
+- `mo`: month
+- `y`: year
+
 ### Returns
 
 - `String`: The time string
