@@ -29,7 +29,6 @@ const data = [
 const names = utils.arrays.extract(data, "name");
 
 console.log(names); // ["John", "Jane", "Bob"]
-
 ```
 
 ### See also
