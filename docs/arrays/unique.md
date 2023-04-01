@@ -9,15 +9,15 @@ The `unique()` function removes duplicates from an array.
 
 ### Parameters
 
-- `arr` (Array): The array to remove duplicates from.
+- `arr` (`Array`): The array to remove duplicates from.
 
 ### Returns
 
-- (Array): A new array with duplicates removed.
+- `Array`: A new array with duplicates removed.
 
 ### Throws
 
-- (Error): If the `arr` parameter is not an array.
+- `Error`: If the `arr` parameter is not an array.
 
 
 ```javascript
