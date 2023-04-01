@@ -45,7 +45,7 @@ ctx.restore();
 ```
 :::info
 
-this example uses await whice means the code has to be inside an async function .
+this example uses await to wait for the request which means the code has to be inside an async function.
 
 :::
 ### See also
