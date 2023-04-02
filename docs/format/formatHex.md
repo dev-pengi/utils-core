@@ -23,7 +23,7 @@ The `formatHex()` function Formats a hexadecimal color code string by adding a "
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const hex = "f00";
 const formattedHex = utils.format.formatHex(hex);
 console.log(formattedHex); 

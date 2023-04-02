@@ -12,5 +12,5 @@ npm i utils-core.js
 ```
 implment it in the code using:
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 ```

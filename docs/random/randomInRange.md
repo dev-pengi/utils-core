@@ -23,13 +23,13 @@ The `randomInRange()` function Generates a random number within a given range.
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const randomInt = randomInRange(1, 10);
 console.log(randomInt);
 // Output: a random integer between 1 and 10, for example: 4
 ```
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const randomInt = randomInRange(1900, 2023);
 console.log(randomInt);
 // Output: a random integer between 1900 and 2023, for example: 1945

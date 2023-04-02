@@ -19,7 +19,7 @@ The `countOccurrences ()` function counts the number of occurrences of a value i
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const arr = [1, 2, 3, 4, 1, 2, 1];
 const val = 1;
 const count = utils.arrays.countOccurrences(arr, val);

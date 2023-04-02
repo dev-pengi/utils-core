@@ -27,7 +27,7 @@ The `normalizeValues()` function normalizes an array of numbers so that they fal
 > using the default range: [0, 1]
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const nums = [10, 20, 30, 40, 50];
 const normalized = utils.math.normalizeValues(nums);
 console.log(normalized);
@@ -37,7 +37,7 @@ console.log(normalized);
 > using the range: [10, 50]
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const nums = [10, 20, 30, 40, 50];
 const min = 10;
 const max = 50;

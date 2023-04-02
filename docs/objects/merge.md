@@ -20,7 +20,7 @@ The `mergeObjects()` function merges two or more objects into a new object.
 > Merging two objects
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const object1 = {
   name: "sif",
   age: 30,
@@ -62,7 +62,7 @@ console.log(mergedObj);
 > Merging three objects
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const object1 = {
   name: "sif",
   age: 30,
@@ -110,7 +110,7 @@ when merging objects with overlapping keys (keys that exists in two or more obje
 > For example merging two objects that has **age** key:
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const object1 = {
   name: "sif",
   age: 30,
@@ -156,7 +156,7 @@ console.log(mergedObj);
 > Merging three objects with overlapping keys:
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const object1 = {
   name: "Alice",
   age: 30,

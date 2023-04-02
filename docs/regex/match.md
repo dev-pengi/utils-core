@@ -37,29 +37,88 @@ The `match()` function checks if a string matches a regular expression of a spec
 > Email matching
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 
 const email = 'sif@sifedine.lol';
-const isValidEmail = utils.regex.match(email, 'email'); 
+const isValidEmail = utils.regex.match(email, 'email');
+console.log(isValidEmail); 
 //Output: true
 ```
 
 > Url matching
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 
 const url = 'https://www.sifedine.lol';
-const isValidUrl = utils.regex.match(url, 'url'); 
+const isValidUrl = utils.regex.match(url, 'url');
+console.log(isValidUrl); 
 //Output: true
 ```
 
 > Credit card matching
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 
 const cc = '4111111111111111';
-const isValidCc = utils.regex.match(cc, 'credit-card');
+const isValidCc = utils.regex.match(cc, 'credit-card
+console.log(isValidCc);');
 //Output: true
 ```
+
+> Ip address v4 matching
+
+```js
+const utils = require('utils-core.js');
+
+const ipAddress = '192.0.2.1';
+const isValidIpAddress = utils.regex.match(ipAddress, 'ip-address
+console.log(isValidIpAddress);-v4');
+//Output: true
+```
+
+> Password matching
+
+```js
+const utils = require('utils-core.js');
+
+const password = 'Password1!';
+const isValidPassword = utils.regex.match(password, 'password');
+console.log(isValidPassword);
+//Output: true
+```
+
+> Username matching
+
+```js
+const utils = require('utils-core.js');
+
+const username = 'john.doe';
+const isValidUsername = utils.regex.match(username, 'username');
+console.log(isValidUsername);
+//Output: true
+```
+
+> Time matching
+
+```js
+const utils = require('utils-core.js');
+
+const time = '18:30';
+const isValidTime = utils.regex.match(time, 'time');
+console.log(isValidTime);
+//Output: true
+```
+
+> Hashtag matching
+
+```js
+const utils = require('utils-core.js');
+
+const hashtag = '#example';
+const isValidHashtag = utils.regex.match(hashtag, 'hashtag');
+console.log(isValidHashtag);
+//Output: true
+```
+

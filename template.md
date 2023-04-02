@@ -21,6 +21,6 @@ The `function()` function ...
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 
 ```

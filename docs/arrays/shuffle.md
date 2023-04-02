@@ -22,7 +22,7 @@ The `shuffle()` function shuffles an array in place using the Fisher-Yates shuff
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const arr = [1, 2, 3, 4, 5];
 const shuffledArr = utils.arrays.shuffle(arr);
 console.log(shuffledArr); // [3, 2, 1, 5, 4]

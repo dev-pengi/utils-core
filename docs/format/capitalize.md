@@ -21,14 +21,14 @@ The `capitalize()` function capitalizes the first letter of a string.
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const str = 'coding is awesome';
 const check = utils.format.capitalize(str);
 console.log(check);
 //Output: Coding is awesome
 ```
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const str = 'javascript';
 const check = utils.format.capitalize(str);
 console.log(check);

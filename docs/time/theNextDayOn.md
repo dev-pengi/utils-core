@@ -20,7 +20,7 @@ The `theNextDayOn()` function gets the milliseconds timestamp of the next day.
 > with the default dayOffset:
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const tomorrowTimestamp = utils.time.theNextDayOn();
 console.log(tomorrowTimestamp);
 //Output: gives you the milliseconds timestamp for the next day.
@@ -28,7 +28,7 @@ console.log(tomorrowTimestamp);
 > with a custom dayOffset:
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const tomorrowTimestamp = utils.time.theNextDayOn(7);
 console.log(tomorrowTimestamp);
 //Output: gives you the milliseconds timestamp for the next week's first day.

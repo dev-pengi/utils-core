@@ -19,7 +19,7 @@ The `extract()` function takes an array of objects and a key as arguments and re
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const data = [
   { id: 1, name: "sif", age: 30 },
   { id: 2, name: "Jane", age: 25 },

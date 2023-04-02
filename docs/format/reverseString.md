@@ -21,14 +21,14 @@ The `reverseString()` function reverses a string.
 ### Example
 
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const str = 'hello world';
 const reversed = utils.format.reverseString(str);
 console.log(reversed); 
 // 'dlrow olleh'
 ```
 ```js
-const utils = require('utils-core.js')
+const utils = require('utils-core.js');
 const str = '123456';
 const reversed = utils.format.reverseString(str);
 console.log(reversed); 
