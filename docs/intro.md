@@ -8,7 +8,7 @@ core-utils is a powerful JavaScript utility library that provides a wide range o
 ### Installation
 you can install the package using:
 ```js
-npm i utils-core.js
+npm i utils-core.js@latest
 ```
 implment it in the code using:
 ```js
