@@ -33,13 +33,13 @@ The `MsToString()` function converts a number of milliseconds to a human readabl
 
 > Using the default seperator:
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 12345;
 const convertedTime = utils.time.MsToString(msTime);
 //Output: '1m'
 ```
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 60000;
 const convertedTime = utils.time.MsToString(msTime);
@@ -48,7 +48,7 @@ const convertedTime = utils.time.MsToString(msTime);
 
 > Using custom timeStamp: (`April 4th, 2022 at 12:00:00 AM UTC`)
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 1649164800000;
 const convertedTime = utils.time.MsToString(msTime);
@@ -57,13 +57,13 @@ const convertedTime = utils.time.MsToString(msTime);
 
 > Using custom seperator:
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 1649164800000;
 const convertedTime = utils.time.MsToString(msTime, ' : ');
 //Output: '2mo : 2w : 3d : 12h : 30m : 23s'
 ```
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 1649164800000;
 const convertedTime = utils.time.MsToString(msTime, ' and ');
@@ -72,7 +72,7 @@ const convertedTime = utils.time.MsToString(msTime, ' and ');
 
 > ms less than 1000:
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const msTime = 500;
 const convertedTime = utils.time.MsToString(msTime);

@@ -24,7 +24,7 @@ The `flattenObject()` function flattens an object with nested properties into a 
 
 > Simple object with no nested properties:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 
 const obj = {
@@ -44,7 +44,7 @@ console.log(flattenedObj);
 
 > Object with nested properties:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const obj = {
   name: "sif",
@@ -69,7 +69,7 @@ console.log(flattenedObj);
 
 > Object with arrays:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 
 const obj = {
@@ -100,7 +100,7 @@ console.log(flattenedObj);
 
 > Object with null or undefined values:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 
 const obj = {
@@ -126,7 +126,7 @@ console.log(flattenedObj);
 
 > Object with all ofthe above
 
-```javascript
+```js
 const utils = require('utils-core.js')
 
 const obj = {
