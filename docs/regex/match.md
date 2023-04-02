@@ -122,3 +122,7 @@ console.log(isValidHashtag);
 //Output: true
 ```
 
+
+### See also
+- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions): Documents for regular expressions and how it works.
+- [RegExr](https://regexr.com/): Regular expression tester with syntax highlighting.
