@@ -21,14 +21,14 @@ The `extract()` function takes an array of objects and a key as arguments and re
 ```js
 const utils = require('utils-core.js')
 const data = [
-  { id: 1, name: "John", age: 30 },
+  { id: 1, name: "sif", age: 30 },
   { id: 2, name: "Jane", age: 25 },
   { id: 3, name: "Bob", age: 40 },
 ];
 
 const names = utils.arrays.extract(data, "name");
 
-console.log(names); // ["John", "Jane", "Bob"]
+console.log(names); // ["sif", "Jane", "Bob"]
 ```
 
 ### See also
