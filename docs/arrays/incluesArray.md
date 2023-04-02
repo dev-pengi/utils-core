@@ -23,7 +23,7 @@ The `incluesArray()` function checks if an array includes at least one item of a
 ### Examples
 > match case
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const array1 = [1, 2, 3];
 const array1 = [3, 4, 5];
@@ -34,7 +34,7 @@ const checkIncludes = utils.array.incluesArray(array1, array2)
 
 > unmatch case
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const array1 = [1, 2, 3];
 const array1 = [4, 5, 6];

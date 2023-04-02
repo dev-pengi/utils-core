@@ -18,7 +18,7 @@ The `countOccurrences ()` function counts the number of occurrences of a value i
 - `Error`: If `arr` is not an array.
 ### Example
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const arr = [1, 2, 3, 4, 1, 2, 1];
 const val = 1;
