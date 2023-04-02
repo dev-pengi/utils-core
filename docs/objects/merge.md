@@ -22,7 +22,7 @@ The `mergeObjects()` function merges two or more objects into a new object.
 ```js
 const utils = require('utils-core.js')
 const object1 = {
-  name: "John",
+  name: "sif",
   age: 30,
   hobbies: ["reading", "running"]
 };
@@ -34,7 +34,7 @@ const object2 = {
     state: "NY"
   },
   contact: {
-    email: "john@example.com",
+    email: "sif@sifedine.lol",
     phone: "555-1234"
   }
 };
@@ -44,7 +44,7 @@ const mergedObj = utils.objects.mergeObjects(object1, object2);
 console.log(mergedObj);
 
 // Output: {
-//   name: "John",
+//   name: "sif",
 //   age: 30,
 //   hobbies: ["reading", "running"],
 //   address: {
@@ -53,7 +53,7 @@ console.log(mergedObj);
 //     state: "NY"
 //   },
 //   contact: {
-//     email: "john@example.com",
+//     email: "sif@sifedine.lol",
 //     phone: "555-1234"
 //   }
 // }
@@ -64,7 +64,7 @@ console.log(mergedObj);
 ```js
 const utils = require('utils-core.js')
 const object1 = {
-  name: "John",
+  name: "sif",
   age: 30,
   hobbies: ["reading", "running"]
 };
@@ -79,7 +79,7 @@ const object2 = {
 
 const object3 = {
   contact: {
-    email: "john@example.com",
+    email: "sif@sifedine.lol",
     phone: "555-1234"
   }
 };
@@ -89,7 +89,7 @@ const mergedObj = utils.objects.mergeObjects(object1, object2, object3);
 console.log(mergedObj);
 
 // Output: {
-//   name: "John",
+//   name: "sif",
 //   age: 30,
 //   hobbies: ["reading", "running"],
 //   address: {
@@ -98,7 +98,7 @@ console.log(mergedObj);
 //     state: "NY"
 //   },
 //   contact: {
-//     email: "john@example.com",
+//     email: "sif@sifedine.lol",
 //     phone: "555-1234"
 //   }
 // }
@@ -112,7 +112,7 @@ when merging objects with overlapping keys (keys that exists in two or more obje
 ```js
 const utils = require('utils-core.js')
 const object1 = {
-  name: "John",
+  name: "sif",
   age: 30,
   hobbies: ["reading", "running"]
 };
@@ -125,7 +125,7 @@ const object2 = {
     state: "NY"
   },
   contact: {
-    email: "john@example.com",
+    email: "sif@sifedine.lol",
     phone: "555-1234"
   }
 };
@@ -135,7 +135,7 @@ const mergedObj = utils.objects.mergeObjects(object1, object2);
 console.log(mergedObj);
 
 // Output: {
-//   name: "John",
+//   name: "sif",
 //   age: 35, // value from object2 overwrites value from object1
 //   hobbies: ["reading", "running"],
 //   address: {
@@ -144,7 +144,7 @@ console.log(mergedObj);
 //     state: "NY"
 //   },
 //   contact: {
-//     email: "john@example.com",
+//     email: "sif@sifedine.lol",
 //     phone: "555-1234"
 //   }
 // }
