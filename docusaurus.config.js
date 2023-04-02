@@ -153,12 +153,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'NPM page',
+                label: 'NPM',
                 href: 'https://www.npmjs.com/package/utils-core.js',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/dev-pengi/utils-core.js',
+              },
+              {
+                label: 'Story set',
+                href: 'https://storyset.com/',
               },
             ],
           },
