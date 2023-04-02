@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Shorter code',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('./support.svg').default,
     description: (
       <>
         utils-core saves you the time of writing the same common functions every time and every project, bringing you all the important functions in one library
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Continuous development',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('./development.svg').default,
     description: (
       <>
         we're always trying to improve and add new utils to the library and fix bugs if it exists, which means you can always expect new features and improvements
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Modular and flexible',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('./code.svg').default,
     description: (
       <>
         utils-core is designed to be modular and flexible, allowing you to easily pick and choose only the functions you need for your project
