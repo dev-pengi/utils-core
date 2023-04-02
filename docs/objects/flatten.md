@@ -139,7 +139,7 @@ const obj = {
     state: "NY"
   },
   contact: {
-    email: "sif@example.com",
+    email: "sif@sifedine.lol",
     phone: {
       home: "555-4564",
       work: "555-5678"
@@ -165,7 +165,7 @@ console.log(flattenedObj);
 //   "address.street": "456 Main St",
 //   "address.city": null,
 //   "address.state": "NY",
-//   "contact.email": "sif@example.com",
+//   "contact.email": "sif@sifedine.lol",
 //   "contact.phone.home": "555-4564",
 //   "contact.phone.work": "555-5678",
 //   "isMarried": false,
