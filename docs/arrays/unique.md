@@ -20,7 +20,7 @@ The `unique()` function removes duplicates from an array.
 - `Error`: If the `arr` parameter is not an array.
 
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const arr = [1, 2, 3, 2, 4, 1];
 const uniqueArr = utils.arrays.unique(arr);

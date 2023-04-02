@@ -25,7 +25,7 @@ The `clamp()` function clamps a value between a minimum and maximum value.
 
 > at velue that is less than **min**
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const current = 5;
 const min = 10;
@@ -37,7 +37,7 @@ console.log(clampedValue);
 
 > at velue that is greater than **max**
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const current = 100;
 const min = 10;

@@ -25,7 +25,7 @@ The `circle()` function draws a circular clipping region on a canvas context.
 
 ### Example
 
-```javascript
+```js
 const { createCanvas, loadImage } = require('canvas');
 const utils = require('utils-core.js');
 const canvas = createCanvas(500, 500);

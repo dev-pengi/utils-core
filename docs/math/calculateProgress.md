@@ -22,7 +22,7 @@ The `calculateProgress()` function calculates the progress made towards a goal, 
 
 ### Example
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const current = 345;
 const required = 1000;

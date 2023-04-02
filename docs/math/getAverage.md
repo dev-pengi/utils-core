@@ -21,7 +21,7 @@ The `getAverage()` function calculates the average of an array of numbers.
 
 ### Example
 
-```javascript
+```js
 const utils = require('utils-core.js');
 const arrayOfNumbers = [1, 2, 3];
 const average = utils.math.getAverage(arrayOfNumbers)

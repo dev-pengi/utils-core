@@ -26,7 +26,7 @@ The `round()` function draws a circular clipping region on a canvas context.
 
 ### Example
 
-```javascript
+```js
 const { createCanvas, loadImage } = require('canvas');
 const canvas = createCanvas(500, 500);
 const ctx = canvas.getContext('2d');
