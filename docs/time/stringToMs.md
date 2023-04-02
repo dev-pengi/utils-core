@@ -32,7 +32,7 @@ The `StringToMs()` function converts a time string to milliseconds.
 
 > Convert a time string to milliseconds:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const timeString = '1m';
 const timeInMs = utils.time.StringToMs(timeString);
@@ -40,7 +40,7 @@ console.log(timeInMs)
 // output: 60000
 ```
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const timeString = '2M';
 const timeInMs = utils.time.StringToMs(timeString); 
@@ -50,7 +50,7 @@ console.log(timeInMs)
 
 > Use the time in milliseconds for a setTimeout:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const timeString = '5s';
 const timeInMs = utils.time,StringToMs(timeString);

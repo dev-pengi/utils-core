@@ -19,7 +19,7 @@ The `theNextDayOn()` function gets the milliseconds timestamp of the next day.
 
 > with the default dayOffset:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const tomorrowTimestamp = utils.time.theNextDayOn();
 console.log(tomorrowTimestamp);
@@ -27,7 +27,7 @@ console.log(tomorrowTimestamp);
 ```
 > with a custom dayOffset:
 
-```javascript
+```js
 const utils = require('utils-core.js')
 const tomorrowTimestamp = utils.time.theNextDayOn(7);
 console.log(tomorrowTimestamp);
