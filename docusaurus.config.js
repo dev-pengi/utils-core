@@ -9,10 +9,10 @@ const config = {
   tagline: 'a powerful JavaScript utility library that provides a wide range of functions to simplify common programming tasks',
 
   // Set the production url of your site here
-  url: 'https://utils-core.js.org',
+  url: 'https://dev-pengi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/utils-core-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
