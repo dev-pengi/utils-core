@@ -8,7 +8,9 @@ sidebar_label: function
 The `function()` function ...
 ### Parameters
 
-- `param` (`Type`):
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| `parameter`     | `Type` | Description of the parameter. |
 
 ### Returns
 
