@@ -8,7 +8,9 @@ sidebar_label: validateHex
 The `validateHex()` function validates a hexadecimal color code string.
 ### Parameters
 
-- `hex` (`String`): The input hexadecimal color code to be validated
+| Parameter | Type     | Description                                       |
+| --------- | -------- | ------------------------------------------------- |
+| `hex`     | `String` | The input hexadecimal color code to be validated. |
 
 ### Returns
 

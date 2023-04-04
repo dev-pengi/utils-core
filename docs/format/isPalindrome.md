@@ -9,7 +9,10 @@ The `isPalindrome()` function determines whether a string is a palindrome **(the
 
 ### Parameters
 
-- `str` (`String`): The string to check
+| Parameter | Type     | Description                    |
+| --------- | -------- | ------------------------------ |
+| `str`     | `String` | The string to check.           |
+
 
 ### Returns
 

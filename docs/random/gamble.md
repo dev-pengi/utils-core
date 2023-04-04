@@ -9,7 +9,9 @@ The `gamble()` function simulates a gambling game by returning true or false bas
 
 ### Parameters
 
-- `percentage` (`Number`): The win percentage (between 0 and 100).
+| Parameter     | Type     | Description                                                      |
+|---------------|----------|------------------------------------------------------------------|
+| `percentage`  | `Number` | The win percentage (between 0 and 100).                            |
 
 ### Returns
 

@@ -9,8 +9,10 @@ The `calculateProgress()` function calculates the progress made towards a goal, 
 
 ### Parameters
 
-- `current` (`Number`): The current progress towards the goal.
-- `goal` (`Number`): The required progress towards the goal.
+| Parameter | Type     | Description                                      |
+| --------- | -------- | ------------------------------------------------ |
+| `current` | `Number` | The current progress towards the goal.           |
+| `goal`    | `Number` | The required progress towards the goal.          |
 
 ### Returns
 

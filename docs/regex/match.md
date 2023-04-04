@@ -9,8 +9,10 @@ The `match()` function checks if a string matches a regular expression of a spec
 
 ### Parameters
 
-- `str` (`String`): The string to match
-- `param` ([RegexType](#regex-types)): The type of regular expression to match against
+| Parameter        | Type          | Description                                                      |
+|------------------|---------------|------------------------------------------------------------------|
+| `str`            | `String`      | The string to match against the regular expression.              |
+| `param`          | `RegexType`   | The type of regular expression to match against.                  |
 
 ### Returns
 
@@ -22,15 +24,17 @@ The `match()` function checks if a string matches a regular expression of a spec
 
 ### Regex types
 
-- `email`: Matches a valid email address.
-- `url`: Matches a valid URL.
-- `credit-card`: Matches a valid credit card number.
-- `ip-address-v4`: Matches a valid IPv4 address.
-- `postal-code`: Matches a valid postal code.
-- `password`: Matches a password that contains at least one uppercase letter, one lowercase letter, one digit, and one special character, and is at least 8 characters long.
-- `username`: Matches a valid username that consists of alphanumeric characters, dots, underscores, and hyphens, and is at least 3 characters long.
-- `time`: Matches a valid time in the format HH:MM.
-- `hashtag`: Matches a valid hashtag that starts with # and contains only alphanumeric characters.
+| Parameter        | Description                                             |
+|------------------|---------------------------------------------------------|
+| `email`          | Matches a valid email address.                          |
+| `url`            | Matches a valid URL.                                     |
+| `credit-card`    | Matches a valid credit card number.                      |
+| `ip-address`     | Matches a valid IPv4 address.                            |
+| `postal-code`    | Matches a valid postal code.                             |
+| `password`       | Matches a password that contains at least one uppercase letter, one lowercase letter, one digit, and one special character, and is at least 8 characters long. |
+| `username`       | Matches a valid username that consists of alphanumeric characters, dots, underscores, and hyphens, and is at least 3 characters long. |
+| `time`           | Matches a valid time in the format HH:MM.                |
+| `hashtag`        | Matches a valid hashtag that starts with # and contains only alphanumeric characters. |
 
 ### Example
 

@@ -8,7 +8,9 @@ sidebar_label: reverseString
 The `reverseString()` function reverses a string.
 ### Parameters
 
-- `str` (`String`): The string to reverse
+| Parameter | Type     | Description             |
+| --------- | -------- | ----------------------- |
+| `str`     | `String` | The string to reverse.  |
 
 ### Returns
 

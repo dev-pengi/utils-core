@@ -9,16 +9,19 @@ The `generateRandomString()` function generate a random string with customizable
 
 ### Parameters
 
-- `options` (`Objects`): The options for generating the random string
-  - `includeNumbers` (`Boolean`): Whether to include numbers in the generated string. Defaults to `true`.
-  - `includeSymbols` (`Boolean`): Whether to include symbols in the generated string. Defaults to `false`.
-  - `length` (`Number`): The length of the generated string. Defaults to `10`.
-  - `secure` (`Boolean`): Whether to use cryptographically secure random number generator. Defaults to `false`.
-  - `prefix` (`String`): A prefix to add to the beginning of the generated string. Defaults to an empty string.
-  - `suffix` (`String`): A suffix to add to the end of the generated string. Defaults to an empty string.
-  - `capitalize` (`Boolean`): Whether to capitalize the first character of the generated string. Defaults to `false`.
-  - `lowercase` (`Boolean`): Whether to convert the generated string to lowercase. Defaults to `false`.
-  - `uppercase` (`Boolean`): Whether to convert the generated string to uppercase. Defaults to `false`.
+| Parameter           | Type      | Description                                                                                                               |
+|---------------------|-----------|---------------------------------------------------------------------------------------------------------------------------|
+| `options`           | `Object`  | An object containing the options for generating the random string.                                                       |
+| `options.includeNumbers`| `Boolean` | A boolean value indicating whether to include numbers in the generated string. Defaults to `true`.                    |
+| `options.includeSymbols`| `Boolean` | A boolean value indicating whether to include symbols in the generated string. Defaults to `false`.                   |
+| `options.length`        | `Number`  | A number indicating the length of the generated string. Defaults to `10`.                                            |
+| `options.secure`        | `Boolean` | A boolean value indicating whether to use a cryptographically secure random number generator. Defaults to `false`.  |
+| `options.prefix`        | `String`  | A string to be added to the beginning of the generated string. Defaults to an empty string.                            |
+| `options.suffix`        | `String`  | A string to be added to the end of the generated string. Defaults to an empty string.                                  |
+| `options.capitalize`    | `Boolean` | A boolean value indicating whether to capitalize the first character of the generated string. Defaults to `false`.   |
+| `options.lowercase`     | `Boolean` | A boolean value indicating whether to convert the generated string to lowercase. Defaults to `false`.                 |
+| `options.uppercase`     | `Boolean` | A boolean value indicating whether to convert the generated string to uppercase. Defaults to `false`.                 |
+
 
 ### Returns
 

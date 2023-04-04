@@ -9,11 +9,14 @@ The `circle()` function draws a circular clipping region on a canvas context.
 
 ### Parameters
 
-- `ctx` (`CanvasRenderingContext2D`): The canvas rendering context to draw on.
-- `x` (`number`): The x-coordinate of the center of the circle.
-- `y` (`number`): The y-coordinate of the center of the circle.
-- `width` (`number`): The width of the clipping region.
-- `height` (`number`): The height of the clipping region.
+| Parameter | Type                           | Description                                                       |
+| --------- | ------------------------------ | ----------------------------------------------------------------- |
+| `ctx`     | `CanvasRenderingContext2D`    | The canvas rendering context to draw on.                           |
+| `x`       | `number`                       | The x-coordinate of the center of the circle.                     |
+| `y`       | `number`                       | The y-coordinate of the center of the circle.                     |
+| `width`   | `number`                       | The width of the clipping region.                                  |
+| `height`  | `number`                       | The height of the clipping region.                                 |
+
 
 ### Return value
 

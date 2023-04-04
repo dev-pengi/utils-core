@@ -9,8 +9,11 @@ The `flattenObject()` function flattens an object with nested properties into a 
 
 ### Parameters
 
-- `obj` (`Object`): The object to flatten
-- `prefix` (`String`): The prefix to use for the path keys. set to `""` by default
+| Parameter | Type     | Description                                      |
+|-----------|----------|--------------------------------------------------|
+| obj       | `Object` | The object to flatten                            |
+| prefix    | `String` | The prefix to use for the path keys. Default `""`|
+
 
 ### Returns
 

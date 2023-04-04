@@ -9,9 +9,11 @@ The `normalizeValues()` function normalizes an array of numbers so that they fal
 
 ### Parameters
 
-- `nums` (`Array`): The array of numbers to normalize
-- `min` (`Number`): The minimum value of the new range, it's set to 0 by default
-- `max` (`Number`): The maximum value of the new range, it's set to 1 by default
+| Parameter | Type    | Description                                              |
+| --------- | ------- | -------------------------------------------------------- |
+| `nums`    | `Array` | The array of numbers to normalize                         |
+| `min`     | `Number`| The minimum value of the new range, set to 0 by default    |
+| `max`     | `Number`| The maximum value of the new range, set to 1 by default    |
 
 ### Returns
 

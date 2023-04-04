@@ -9,7 +9,9 @@ The `theNextDayOn()` function gets the milliseconds timestamp of the next day.
 
 ### Parameters
 
-- `dayOffset` (`Number`): The number of days to calculate the timestamp for, set to `1` by default
+| Parameter      | Description                                                      |
+|----------------|------------------------------------------------------------------|
+| `dayOffset`    | The number of days to calculate the timestamp for. Defaults to 1. |
 
 ### Returns
 

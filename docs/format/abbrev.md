@@ -9,7 +9,10 @@ The `abbrev()` function abbreviates a large number with a letter suffix.
 
 ### Parameters
 
-- `num` (`Number`): The number to abbreviate
+| Parameter | Type     | Description                 |
+| --------- | -------- | --------------------------- |
+| `num`     | `Number` | The number to abbreviate.    |
+
 
 ### Returns
 

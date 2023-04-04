@@ -9,9 +9,11 @@ The `clamp()` function clamps a value between a minimum and maximum value.
 
 ### Parameters
 
-- `value` - (`Number`): The value to be clamped.
-- `min` - (`Number`): The minimum value that **value** can be.
-- `max` - (`Number`): The maximum value that **value** can be.
+| Parameter | Type     | Description                                                          |
+| --------- | -------- | -------------------------------------------------------------------- |
+| `value`   | `Number` | The value to be clamped.                                             |
+| `min`     | `Number` | The minimum value that `value` can be.                                |
+| `max`     | `Number` | The maximum value that `value` can be.                                |
 
 ### Returns
 

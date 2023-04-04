@@ -9,7 +9,10 @@ The `unique()` function removes duplicates from an array.
 
 ### Parameters
 
-- `arr` (`Array`): The array to remove duplicates from.
+| Parameter | Type    | Description                                  |
+| --------- | ------- | -------------------------------------------- |
+| `arr`     | `Array` | The array to remove duplicate elements from.  |
+
 
 ### Returns
 

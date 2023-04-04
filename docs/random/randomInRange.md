@@ -8,8 +8,10 @@ sidebar_label: randomInRange
 The `randomInRange()` function Generates a random number within a given range.
 ### Parameters
 
-- `min` (`Number`): The minimum value of the range
-- `max` (`Number`): The maximum value of the range
+| Parameter     | Type     | Description                                                      |
+|---------------|----------|------------------------------------------------------------------|
+| `min`         | `Number` | The minimum value of the range.                                   |
+| `max`         | `Number` | The maximum value of the range.                                   |
 
 ### Returns
 

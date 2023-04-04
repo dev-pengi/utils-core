@@ -8,8 +8,10 @@ sidebar_label: shorten
 The `shorten()` function returns a shortened version of a string if its length is greater than the specified limit..
 ### Parameters
 
-- `text` (`String`): The text to shorten
-- `len` (`Number`): The maximum length of the shortened text
+| Parameter | Type     | Description                                       |
+| --------- | -------- | ------------------------------------------------- |
+| `text`    | `String` | The text to shorten.                              |
+| `len`     | `Number` | The maximum length of the shortened text, in chars.|
 
 ### Returns
 

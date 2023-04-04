@@ -9,7 +9,9 @@ The `getAverage()` function calculates the average of an array of numbers.
 
 ### Parameters
 
-- `nums` (`Array`): The array of numbers to calculate the average for
+| Parameter | Type    | Description                                      |
+| --------- | ------- | ------------------------------------------------ |
+| `nums`    | `Array` | The array of numbers to calculate the average for |
 
 ### Returns
 

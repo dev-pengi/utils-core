@@ -9,16 +9,21 @@ The `StringToMs()` function converts a time string to milliseconds.
 
 ### Parameters
 
-- `timeString` (`String`): The time string to convert
+| Parameter       | Description                          |
+|-----------------|--------------------------------------|
+| `timeString`    | The time string to convert to a Date |
 
 ### Time units:
-- `s`: second
-- `m`: minute
-- `h`: hour
-- `d`: day
-- `w`: week
-- `M`: month
-- `Y`: year
+
+| Parameter   | Description                |
+|-------------|----------------------------|
+| `s`         | Second                     |
+| `m`         | Minute                     |
+| `h`         | Hour                       |
+| `d`         | Day                        |
+| `w`         | Week                       |
+| `M`         | Month                      |
+| `Y`         | Year                       |
 
 ### Returns
 

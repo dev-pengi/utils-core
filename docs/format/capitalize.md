@@ -6,9 +6,13 @@ sidebar_label: capitalize
 ---
 
 The `capitalize()` function capitalizes the first letter of a string.
+
 ### Parameters
 
-- `str` (`String`): The string to be capitalized
+| Parameter | Type     | Description                           |
+| --------- | -------- | ------------------------------------- |
+| `str`     | `String` | The string to be capitalized.         |
+
 
 ### Returns
 

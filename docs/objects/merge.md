@@ -9,7 +9,9 @@ The `mergeObjects()` function merges two or more objects into a new object.
 
 ### Parameters
 
-- `objects` (`Objects`): objects The objects to merge.
+| Parameter  | Type     | Description                             |
+|------------|----------|-----------------------------------------|
+| `objects`  | `Object` | The objects to merge.                    |
 
 ### Returns
 

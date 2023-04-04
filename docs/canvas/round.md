@@ -9,12 +9,15 @@ The `round()` function draws a circular clipping region on a canvas context.
 
 ### Parameters
 
-- `ctx` (`CanvasRenderingContext2D`): The canvas rendering context to draw on.
-- `x` (`number`): The x-coordinate of the top-left corner of the rectangle.
-- `y` (`number`): The y-coordinate of the top-left corner of the rectangle.
-- `width` (`number`): The width of the rectangle.
-- `height` (`number`): The height of the rectangle.
-- `radius` (`number or boolean, optional`): The radius of the corners, or true for a default 
+| Parameter | Type                             | Description                                                                                                   |
+| --------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `ctx`     | `CanvasRenderingContext2D`       | The canvas rendering context to draw on.                                                                       |
+| `x`       | `number`                          | The x-coordinate of the top-left corner of the rectangle.                                                     |
+| `y`       | `number`                          | The y-coordinate of the top-left corner of the rectangle.                                                     |
+| `width`   | `number`                          | The width of the rectangle.                                                                                    |
+| `height`  | `number`                          | The height of the rectangle.                                                                                   |
+| `radius`  | `number` or `boolean` (optional)  | The radius of the corners, or `true` for a default radius. If not specified, the rectangle will have sharp edges. |
+
 
 ### Return value
 

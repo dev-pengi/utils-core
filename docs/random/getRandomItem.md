@@ -8,7 +8,9 @@ sidebar_label: getRandomItem
 The `getRandomItem()` function returns a random item from an array.
 ### Parameters
 
-- `arr` (`Array`): The array to select a random item from
+| Parameter     | Type     | Description                                                      |
+|---------------|----------|------------------------------------------------------------------|
+| `arr`         | `Array`  | The array to select a random item from.                           |
 
 ### Returns
 

@@ -9,8 +9,10 @@ The `formatHex()` function Formats a hexadecimal color code string by adding a "
 
 ### Parameters
 
-- `hex` (`String`): The input hexadecimal color code to be formatted.
-- `alt` (`String`): The default color code to use if `hex` is invalid, set to `#000000` by default.
+| Parameter | Type     | Description                                                                                                  |
+| --------- | -------- | ------------------------------------------------------------------------------------------------------------ |
+| `hex`     | `String` | The input hexadecimal color code to be formatted.                                                            |
+| `alt`     | `String` | The default color code to use if `hex` is invalid. This parameter is optional and set to `#000000` by default. |
 
 ### Returns
 

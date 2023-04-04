@@ -9,17 +9,22 @@ The `MsToString()` function converts a number of milliseconds to a human readabl
 
 ### Parameters
 
-- `milliseconds` (`Number`): The number of milliseconds to convert
-- `seperator` (`String`): Seperates between units. set to `' ,'` by default
+| Parameter        | Type      | Description                                              |
+|------------------|-----------|----------------------------------------------------------|
+| `milliseconds`   | `Number`  | The number of milliseconds to convert.                   |
+| `separator`      | `String`  | The separator between units. Defaults to `' ,'`.         |
 
 ### Time units:
-- `s`: second
-- `m`: minute
-- `h`: hour
-- `d`: day
-- `w`: week
-- `mo`: month
-- `y`: year
+
+| Parameter   | Description                |
+|-------------|----------------------------|
+| `s`         | Second                     |
+| `m`         | Minute                     |
+| `h`         | Hour                       |
+| `d`         | Day                        |
+| `w`         | Week                       |
+| `mo`        | Month                      |
+| `y`         | Year                       |
 
 ### Returns
 
