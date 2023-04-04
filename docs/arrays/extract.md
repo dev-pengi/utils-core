@@ -7,8 +7,11 @@ sidebar_label: extract
 
 The `extract()` function takes an array of objects and a key as arguments and returns an array containing the values of the specified key from each object in the input array.
 ### Parameters
-- `arr` (`Array`): The array of objects to extract values from.
-- `key` (`string`): The name of the key to extract values for.
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| `arr`     | `Array` | The array of objects to extract values from. |
+| `key`     | `string` | The name of the key to extract values for. |
 
 ### Returns
 - `Array`: An array with the extracted values.
