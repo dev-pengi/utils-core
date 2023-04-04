@@ -3,7 +3,7 @@ name: Add CNAME file
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create CNAME file
-        run: echo 'core-utils.js.org' > ./build/CNAME
+        run: echo 'core-utils.js.org' > ./CNAME
 
       - name: Commit CNAME file
         run: |
