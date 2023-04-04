@@ -9,7 +9,9 @@ The `shuffle()` function shuffles an array in place using the Fisher-Yates shuff
 
 ### Parameters
 
-- `arr` (`Array`): The input array to be shuffled.
+| Parameter | Type    | Description                                |
+| --------- | ------- | ------------------------------------------ |
+| `arr`     | `Array` | The input array to be shuffled randomly.   |
 
 ### Returns
 
