@@ -8,8 +8,11 @@ sidebar_label: countOccurrences
 The `countOccurrences ()` function counts the number of occurrences of a value in an array..
 
 ### Parameters
-- `arr`: The array to search for occurrences of `val`.
-- `val`: The value to search for in the array.
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| `arr`     | `Array` | The array to search for occurrences of `val`. |
+| `val`     | `String` | The value to search for in the array. |
 
 ### Returns
 - `Number`: The number of occurrences of `val` in `arr`.
