@@ -4,7 +4,7 @@
   <ShortName>Utils Core</ShortName>
   <Description>Search Utils Core</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" method="get" template="https://github.com/utils-core-docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://github.com/utils-core-docs/opensearch.xml" />
-  <moz:SearchForm>https://github.com/utils-core-docs/</moz:SearchForm>
+  <Url type="text/html" method="get" template="https://github.com/utils-core/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://github.com/utils-core/opensearch.xml" />
+  <moz:SearchForm>https://github.com/utils-core/</moz:SearchForm>
 </OpenSearchDescription>
