@@ -9,8 +9,10 @@ The `chunk()` function splits an array into chunks of a specified size.
 
 ### Parameters
 
-- `arr` (`Array`): The array to chunk.
-- `size` (`number`): The size of each chunk.
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| `arr`     | `Array` | The array to chunk. |
+| `size`    | `number` | The size of each chunk. |
 
 ### Returns
 
