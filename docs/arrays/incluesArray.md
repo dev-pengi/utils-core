@@ -9,8 +9,10 @@ The `incluesArray()` function checks if an array includes at least one item of a
 
 ### Parameters
 
-- `array1` (`Array`): The first array to check
-- `array2` (`Array`): The second array to check
+| Parameter  | Type    | Description                                      |
+| ---------- | ------- | ------------------------------------------------ |
+| `array1`   | `Array` | The first array to check for common elements.    |
+| `array2`   | `Array` | The second array to check for common elements.   |
 
 ### Returns
 
