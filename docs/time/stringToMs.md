@@ -58,7 +58,7 @@ console.log(timeInMs)
 ```js
 const utils = require('utils-core.js');
 const timeString = '5s';
-const timeInMs = utils.time,StringToMs(timeString);
+const timeInMs = utils.time.StringToMs(timeString);
 setTimeout(() => {
   console.log('5 seconds have passed');
 }, timeInMs);
